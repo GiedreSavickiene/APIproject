@@ -1,0 +1,29 @@
+:root {
+    --half-gap: 10px;
+    --gap: calc(var(--half-gap) * 2);
+    --col-1: calc(100% / 12 - var(--gap));
+    --col-gap: calc(var(--col-1) + var(--gap));
+    --col-2: calc(var(--col-1) + var(--col-gap));
+    --col-3: calc(var(--col-2) + var(--col-gap));
+    --col-4: calc(var(--col-3) + var(--col-gap));
+    --col-5: calc(var(--col-4) + var(--col-gap));
+    --col-6: calc(var(--col-5) + var(--col-gap));
+    --col-7: calc(var(--col-6) + var(--col-gap));
+    --col-8: calc(var(--col-7) + var(--col-gap));
+    --col-9: calc(var(--col-8) + var(--col-gap));
+    --col-10: calc(var(--col-9) + var(--col-gap));
+    --col-11: calc(var(--col-10) + var(--col-gap));
+    --col-12: calc(var(--col-11) + var(--col-gap));
+    --ml-0: var(--half-gap);
+    --ml-1: calc(var(--ml-0) + var(--col-gap));
+    --ml-2: calc(var(--ml-1) + var(--col-gap));
+    --ml-3: calc(var(--ml-2) + var(--col-gap));
+    --ml-4: calc(var(--ml-3) + var(--col-gap));
+    --ml-5: calc(var(--ml-4) + var(--col-gap));
+    --ml-6: calc(var(--ml-5) + var(--col-gap));
+    --ml-7: calc(var(--ml-6) + var(--col-gap));
+    --ml-8: calc(var(--ml-7) + var(--col-gap));
+    --ml-9: calc(var(--ml-8) + var(--col-gap));
+    --ml-10: calc(var(--ml-9) + var(--col-gap));
+    --ml-11: calc(var(--ml-10) + var(--col-gap));
+}
